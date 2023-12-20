@@ -1,0 +1,98 @@
+/* COLLECTION */
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #000000;
+  color: #EAEAEA;
+  margin: 0;
+  padding: 0; 
+  line-height: 1.3;
+  font-size: 16px;
+  font-family:'Dancing Script', cursive;
+  min-height: 100vh;
+  max-width: 100vw;
+  background-image: url(images/mercury.png);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+img {
+  max-width: 200%;
+}
+
+main{
+  padding: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  min-height: 25vh;
+}
+
+.no-bg{ 
+  background-image: none;
+}
+/* Typography*/
+p{
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0 0 1em 0;
+  color: rgb(171, 255, 255);
+  margin-left: auto;
+}
+h1{
+  font-weight: 800;
+  font-size: 90px;
+  line-height: 100%;
+  letter-spacing: -1px;
+  margin-left: auto;
+}
+
+.button { 
+ color: rgb(242, 231, 217);
+ border: 2px solid;
+ box-sizing: 32px;
+ font-weight: 3px;
+ padding: 4px 16px ;
+ text-decoration: dotted;
+ margin-top: 3px;
+}
+.button:hover{
+  color: aliceblue;}
+
+.center {text-align: center;}
+  
+
+/* GRID*/
+.grid{
+  display:grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  justify-content: center;
+  justify-content: center;
+  margin-left: auto;
+  gap: 18px;
+  padding: 16px;
+
+}
+footer{
+  display: block;
+  padding-left: 50px;
+  padding-top: 300px;
+  text-align: center;
+  
+}
+header{
+  background: #f35d5d;
+  padding: 8px 16px;
+  margin: auto;
+  align-items: center;
+}
+header a {
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: 700;
+}
